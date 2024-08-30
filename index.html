@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebac-Bootstrap Avançado</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="container">
+        <h1>Natureza selvagem</h1>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary me-md-2" type="button">Login</button>
+            <button class="btn btn-primary" type="button">Cadastrar</button>
+        </div>
+    </header>
+    <div class="container">
+        <div id="carousel-menu" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./images/cruz.jpg" alt="">
+                <div class="carousel-caption">
+                    <h2>Foto de uma cruz</h2>
+                </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/landscape.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Foto de entadecer</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/sky.jpg" alt="">
+                </div>
+                <div class="carousel-caption">
+                    <h2>Foto céu na fazenda</h2>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-menu" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"> </span>
+            </button>
+            <button data-bs-target="#carousel-menu" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"> </span>
+            </button>
+            <div class="carousel-indicators">
+                <button data-bs-target="#carousel-menu" class="active" data-bs-slide-to="0" type="button"></button>
+                <button data-bs-target="#carousel-menu" data-bs-slide-to="1" type="button"></button>
+                <button data-bs-target="#carousel-menu" data-bs-slide-to="2" type="button"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container conteudo">
+        <main>
+            <section>
+                <h2 class="text-bg-dark p-3"> Ultimas imagens</h2>
+                <div class="noticias">
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/200x200" alt="">
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi labore animi veniam</h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/200x200" alt="">
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi labore animi veniam</h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/200x200" alt="">
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi labore animi veniam</h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/200x200" alt="">
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi labore animi veniam</h3>
+                        </a>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+
+<footer>
+    <p> &copy; Todos os direitos reservados para Natureza Selvagem</p>
+</footer>
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
