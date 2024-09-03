@@ -9,14 +9,26 @@
 
 </head>
 <body>
-    <header class="container">
-        <h1>Natureza selvagem</h1>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <button class="btn btn-primary me-md-2" type="button">Login</button>
-            <button class="btn btn-primary" type="button">Cadastrar</button>
+    <header>
+        <div class="container" >
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="header">
+                <a class="navbar-brand" href="index.html">
+                    <img id="logo" src="images/nature-plant-tree-svgrepo-com.svg" alt="Arvore Logo">Natureza Selvagem
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu" href="#">Home</a>
+                        <a class="nav-item nav-link" id="post-menu" href="#">Ultimas Postagens</a>
+                        <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
+                    </div>
+                </div>
+            </nav>
         </div>
     </header>
-    <div class="container">
+    <div class="container-fluid">
         <div id="carousel-menu" class="carousel carousel-fade slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div data-bs-interval="3000" class="carousel-item active">
@@ -51,42 +63,48 @@
             </div>
         </div>
     </div>
-    <div class="container conteudo">
-        <main>
-            <section>
-                <h2 class="text-bg-dark p-3"> Ultimas imagens</h2>
-                <div class="noticias">
-                    <article class="noticia">
-                        <a href="#">
-                            <img src="https://via.placeholder.com/200x200" alt="">
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi labore animi veniam</h3>
-                        </a>
-                    </article>
-                    <article class="noticia">
-                        <a href="#">
-                            <img src="https://via.placeholder.com/200x200" alt="">
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi labore animi veniam</h3>
-                        </a>
-                    </article>
-                    <article class="noticia">
-                        <a href="#">
-                            <img src="https://via.placeholder.com/200x200" alt="">
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi labore animi veniam</h3>
-                        </a>
-                    </article>
-                    <article class="noticia">
-                        <a href="#">
-                            <img src="https://via.placeholder.com/200x200" alt="">
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi labore animi veniam</h3>
-                        </a>
-                    </article>
-                </div>
-            </section>
-        </main>
+    <div class="container">
+        <div class="row">
+            <div class="text-center imagem">
+                <h2> Ultimas imagens</h2>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <article class="imagem">
+                    <a href="#">
+                        <img src="https://via.placeholder.com/200x200" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi labore animi veniam</p>
+                    </a>
+                </article>
+            </div>
+            <div class="col-xl-4 col-md-6 ">
+                <article class="imagem">
+                    <a href="#">
+                        <img src="https://via.placeholder.com/200x200" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi labore animi veniam</p>
+                    </a>
+                </article>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <article class="imagem">
+                    <a href="#">
+                        <img src="https://via.placeholder.com/200x200" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi labore animi veniam</p>
+                    </a>
+                </article>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <article class="imagem">
+                    <a href="#">
+                        <img src="https://via.placeholder.com/200x200" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi labore animi veniam</p>
+                    </a>
+                </article>
+            </div>           
+        </div>
     </div>
 
 <footer>
-    <p> &copy; Todos os direitos reservados para Natureza Selvagem</p>
+    <p class="text-center"> &copy; Todos os direitos reservados para Natureza Selvagem</p>
 </footer>
 
 
