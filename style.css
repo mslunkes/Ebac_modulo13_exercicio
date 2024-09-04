@@ -6,26 +6,30 @@
 #header{
     background-color: rgba(24, 30, 34, 0.9);
     padding: 0 100px;
+    
+}
+.navbar-brand{
+    display: flex;
+}
+h1{
+    color:aliceblue;
+    
 }
 
 #logo{
     height: 45px;
     padding: 5px;
 }
-.navbar h1{
-    color: aliceblue;
-}
+
 .navbar-nav a {
     font-weight: bold;
-   
-
 }
 body {
     background-color: rgb(176, 220, 254);
 }
 .carousel-inner div img{
-    margin-top: 55px;
     height: 500px;
+    padding-top:65px;
 }
 .imagem {
     padding-top: 35px;
@@ -49,24 +53,35 @@ font-weight: bold;
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .carousel-inner div img{
-        margin-top: 55px;
-        height: 250px;
+        margin-top: -5px;
+        height: 350px;
     }
 
     
-
+    .carousel-caption h2{
+        font-size: 16px;
+    }
+    
 }
 
 
 @media screen and (max-width: 767px){
     .carousel-inner div img{
-        margin-top: 95px;
+        margin-top: 30px;
         height: 250px;
+    }
+
+    .carousel-caption h2{
+        font-size: 16px;
     }
     
 
     .navbar h1{
         font-size: 20px;
+    }
+
+    .imagem a img {
+        width: 150px;
     }
 
 }
